@@ -1,0 +1,17 @@
+ /* (min-width:650px) and (max-width:899px) */
+ .info {
+
+     width: 600px;
+     margin: 10% 5%;
+ }
+
+ .info h3 {
+     font-size: 41px;
+     line-height: 1em;
+ }
+
+
+ .btn-info {
+     padding: 1% 5%;
+
+ }

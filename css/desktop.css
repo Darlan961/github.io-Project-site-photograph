@@ -31,9 +31,11 @@ body {
 }
 
 header {
+
     position: absolute;
     width: 100%;
     color: #fff;
+
 }
 
 /*****************
@@ -107,7 +109,39 @@ label[for="bt_menu"],
     display: none;
 }
 
-@media screen and (min-width : 603px) and (max-width: 1200px) {
+
+.info {
+
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+    margin: 10% 15%;
+}
+
+.info h3 {
+    font-size: 71px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    font-weight: 100;
+}
+
+
+.btn-info {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    background-color: #b84373;
+    border-radius: 5px;
+    margin-top: 0;
+
+}
+
+
+
+
+@media screen and (min-width : 651px) and (max-width: 1200px) {
     nav {
         width: 100%;
     }
@@ -124,10 +158,29 @@ label[for="bt_menu"],
     .nav-itens li a {
         font-size: 1.2em;
     }
+
+
+    .info {
+
+        width: 600px;
+        margin: 10% 15%;
+    }
+
+    .info h3 {
+        font-size: 51px;
+        line-height: 1em;
+    }
+
+
+    .btn-info {
+        font-size: 1.3em;
+        padding: 1% 5%;
+
+    }
+
 }
 
-
-@media screen and (max-width : 602px) {
+@media screen and (max-width : 650px) {
 
     nav,
     nav .nav-itens {
@@ -174,6 +227,3 @@ label[for="bt_menu"],
         margin-left: none;
     }
 }
-
-/*End Style Menu
-***************/
