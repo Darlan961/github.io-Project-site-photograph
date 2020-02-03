@@ -22,3 +22,8 @@
      width: 50%;
      margin-top: 50px
  }
+
+
+ .fotos-equipamentos .foto:nthChild(even) {
+     width: 50%;
+ }

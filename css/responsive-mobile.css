@@ -1,50 +1,69 @@
- /* (min-width:650px) and (max-width:899px) */
+/* max-width:649px  */
 
- nav {
-     position: absolute;
-     margin-top: 0px
- }
+.banner {
+    height: 80vw;
+}
 
- nav .nav-itens {
-     margin-top: -4px
- }
+nav {
+    position: absolute;
+    margin-top: 0px
+}
 
- nav .nav-itens {
-     font-size: 0.8em
- }
+nav .nav-itens {
+    margin-top: -4px
+}
 
- .info {
-     width: 250px;
-     margin-top: 20%;
-     padding: 10px
- }
+nav .nav-itens {
+    font-size: 0.8em
+}
 
- .info h3 {
-     font-size: 26px;
-     line-height: 1em;
-     margin: 5px;
- }
+.info {
+    width: 290px;
+    margin: auto;
+    margin-top: 30%;
+    padding: 10px;
+}
 
- .btn-info {
-     font-size: 0.9em;
-     padding: 1% 1.5%;
+.info h3 {
+    font-size: 28px;
+    line-height: 1em;
 
- }
+}
 
- .title-service {
-     width: 100%;
- }
+.btn-info {
+    font-size: 0.9em;
+    padding: 1% 1.5%;
 
- .title-service h1 {
-     font-size: 2em;
-     margin-bottom: -10px
- }
+}
 
- .title-service p {
-     font-size: 0.8em
- }
+.title-service {
+    width: 100%;
+    margin-bottom: -10px;
+}
 
- .some-services div {
-     width: 100%;
-     margin-top: 50px
- }
+.title-service h1 {
+    font-size: 2em;
+    margin-bottom: -10px
+}
+
+.title-service p {
+    font-size: 0.8em
+}
+
+.some-services div {
+    width: 100%;
+    margin-top: 50px
+}
+
+.some-services div h2 {
+    font-size: 1.4em;
+}
+
+.bg1 {
+    height: 200px;
+}
+
+.bg1 h1 {
+    font-size: 2em;
+    padding-top: 50px;
+}
