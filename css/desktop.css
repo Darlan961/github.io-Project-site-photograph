@@ -34,7 +34,7 @@ p {
 
 
 .banner {
-    background: url('/img/bg1.jpg') no-repeat;
+    background: url('../img/bg1.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
