@@ -1,3 +1,50 @@
+ /* (min-width:650px) and (max-width:899px) */
+
+ nav {
+     position: absolute;
+     margin-top: 0px
+ }
+
+ nav .nav-itens {
+     margin-top: -4px
+ }
+
+ nav .nav-itens {
+     font-size: 0.8em
+ }
+
  .info {
-     display: none;
+     width: 250px;
+     margin-top: 20%;
+     padding: 10px
+ }
+
+ .info h3 {
+     font-size: 26px;
+     line-height: 1em;
+     margin: 5px;
+ }
+
+ .btn-info {
+     font-size: 0.9em;
+     padding: 1% 1.5%;
+
+ }
+
+ .title-service {
+     width: 100%;
+ }
+
+ .title-service h1 {
+     font-size: 2em;
+     margin-bottom: -10px
+ }
+
+ .title-service p {
+     font-size: 0.8em
+ }
+
+ .some-services div {
+     width: 100%;
+     margin-top: 50px
  }

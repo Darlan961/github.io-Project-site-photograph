@@ -1,8 +1,7 @@
  /* (min-width:650px) and (max-width:899px) */
  .info {
-
      width: 600px;
-     margin: 10% 5%;
+     margin: 0% 5%;
  }
 
  .info h3 {
@@ -10,8 +9,16 @@
      line-height: 1em;
  }
 
-
  .btn-info {
-     padding: 1% 5%;
+     padding: 1% 2%;
 
+ }
+
+ .title-service {
+     width: 100%;
+ }
+
+ .some-services div {
+     width: 50%;
+     margin-top: 50px
  }
