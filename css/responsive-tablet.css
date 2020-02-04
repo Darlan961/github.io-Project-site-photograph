@@ -23,7 +23,35 @@
      margin-top: 50px
  }
 
-
  .fotos-equipamentos .foto:nthChild(even) {
      width: 50%;
+ }
+
+ .content-information {
+     flex-wrap: wrap;
+ }
+
+ .content-information p,
+ .col-information2 ul {
+     margin-top: -30px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .col-information1 {
+     width: 50%;
+
+ }
+
+ .col-information2 {
+     width: 50%;
+     text-align: center
+ }
+
+ .col-information3 {
+     width: 85%;
+ }
+
+ .col-information3 form,
+ .col-information3 {
+     margin-top: -30px;
  }

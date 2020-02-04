@@ -4,6 +4,10 @@
     height: 80vw;
 }
 
+#page-eventos .banner {
+    height: 40vw;
+}
+
 nav {
     position: absolute;
     margin-top: 0px
@@ -16,6 +20,25 @@ nav .nav-itens {
 nav .nav-itens {
     font-size: 0.8em
 }
+
+.itens-contact {
+    display: block;
+    margin-top: 70px;
+    float: right;
+}
+
+.itens-contact span {
+    font-size: 1.4em;
+    float: left;
+    padding: 20px;
+    color: #fff;
+
+}
+
+.contact {
+    display: none;
+}
+
 
 .info {
     width: 290px;
@@ -66,4 +89,23 @@ nav .nav-itens {
 .bg1 h1 {
     font-size: 2em;
     padding-top: 50px;
+}
+
+.content-information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-information1,
+.col-information2,
+.col-information3 {
+    width: 100%;
+}
+
+.col-information3 form {
+    padding: 10px;
+}
+
+.btn-form {
+    padding: 5px;
 }
