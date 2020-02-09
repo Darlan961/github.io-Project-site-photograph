@@ -43,34 +43,22 @@ p {
     position: relative;
 }
 
-#page-eventos .banner {
+#page-eventos .banner,
+#page-casamentos .banner,
+#page-books .banner,
+#page-contato .banner {
     height: 17vw;
-    background-position: center center
+    background-position: center center;
 }
 
 
 header {
+    color: #fff;
     position: absolute;
     width: 100%;
-    color: #fff;
-
 }
 
-#contact-tel {
-    width: 70%;
-    margin: auto;
-    text-align: right;
 
-}
-
-#contact-tel span {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5%;
-}
-
-#contact-tel address {
-    display: inline;
-}
 
 /*****************
  Style Menu */
@@ -191,7 +179,11 @@ label[for="bt_menu"],
     display: none;
 }
 
-.contact li span {
+.contact li a {
+    text-decoration: none;
+}
+
+.contact li a span {
     color: #fff;
     padding: 10px 0px
 }
@@ -199,8 +191,9 @@ label[for="bt_menu"],
 .contact li span:hover {
     color: #943c60;
     cursor: pointer;
-
 }
+
+
 
 .title-service {
     width: 50%;
@@ -282,7 +275,7 @@ label[for="bt_menu"],
 }
 
 
-/* ===========================================================*/
+
 
 .footer-information {
     background-color: #151515;
@@ -359,6 +352,107 @@ footer {
     color: #fff;
     font-weight: 500;
     padding: 20px;
+}
+
+
+#page-eventos .container,
+#page-casamentos .container,
+#page-books .container {
+    width: 80%;
+}
+
+#page-eventos .card_img,
+#page-casamentos .card_img,
+#page-books .card_img {
+    width: 390px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#page-eventos .small_img,
+#page-casamentos .small_img,
+#page-books .small_img {
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+#page-eventos .small_img:hover,
+#page-casamentos .small_img:hover,
+#page-books .small_img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.4);
+}
+
+#page-eventos .row,
+#page-casamentos .row,
+#page-books .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+#form-contato {
+    margin: auto;
+    /* background: grey; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#form-values {
+    width: 50%;
+    /* background: blue; */
+}
+
+#form-contato input,
+#form-contato select,
+#form-contato textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: #f0eaea;
+    padding: 5px;
+    font-size: 1.3rem;
+    box-shadow: 0px 0px 1px #000;
+    margin-top: 10px;
+    color: #746e6e;
+    margin-top: 30px;
+    /* border-bottom: 1px solid #ff3589; */
+}
+
+#form-contato #form-values select {
+    width: 91%;
+
+}
+
+#form-contato button {
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 30px;
+    width: 91%;
+    padding: 10px;
+    background-color: #b84373;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+#location-google {
+    width: 45%;
+    border: 10px solid #f0eaea;
+
+}
+
+#location-google iframe {
+    width: 100%;
+    height: 100%;
 }
 
 

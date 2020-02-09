@@ -4,7 +4,10 @@
     height: 80vw;
 }
 
-#page-eventos .banner {
+#page-eventos .banner,
+#page-casamentos .banner,
+#page-books .banner,
+#page-contato .banner {
     height: 40vw;
 }
 
@@ -108,4 +111,42 @@ nav .nav-itens {
 
 .btn-form {
     padding: 5px;
+}
+
+#form-contato {
+    width: 100%;
+}
+
+#form-values {
+    width: 80%;
+    /* background: blue; */
+}
+
+#form-contato input,
+#form-contato select,
+#form-contato textarea {
+    width: 90%;
+    padding: 4px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #746e6e;
+    margin-top: 30px;
+}
+
+#form-contato #form-values select {
+    width: 92%;
+}
+
+
+
+#location-google {
+    margin-top: 40px;
+    width: 90%;
+    border: 5px solid #f0eaea;
+
+}
+
+#location-google iframe {
+    width: 100%;
+    height: 100%;
 }
