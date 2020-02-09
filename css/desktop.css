@@ -46,7 +46,8 @@ p {
 #page-eventos .banner,
 #page-casamentos .banner,
 #page-books .banner,
-#page-contato .banner {
+#page-contato .banner,
+#page-sobre .banner {
     height: 17vw;
     background-position: center center;
 }
@@ -130,6 +131,10 @@ label[for="bt_menu"] {
 label[for="bt_menu"],
 #bt_menu {
     display: none;
+}
+
+.page-atual {
+    color: #b84373;
 }
 
 
@@ -282,6 +287,8 @@ label[for="bt_menu"],
 }
 
 .content-information {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     justify-content: center
 }
@@ -375,38 +382,52 @@ footer {
 #page-books .small_img {
     height: 100%;
     cursor: pointer;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
     transition: all linear 0.4s;
+
 }
 
 #page-eventos .small_img:hover,
 #page-casamentos .small_img:hover,
 #page-books .small_img:hover {
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
     transform: scale(1.4);
 }
 
 #page-eventos .row,
 #page-casamentos .row,
 #page-books .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
 }
 
 
 
 #form-contato {
     margin: auto;
-    /* background: grey; */
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
 }
 
 #form-values {
     width: 50%;
-    /* background: blue; */
 }
 
 #form-contato input,
@@ -440,20 +461,43 @@ footer {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-
-
 }
 
 #location-google {
     width: 45%;
     border: 10px solid #f0eaea;
-
 }
 
 #location-google iframe {
     width: 100%;
     height: 100%;
 }
+
+#page-sobre .sobre {
+    padding: 0px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#page-sobre .sobre img {
+    width: 249px;
+    height: 300px;
+}
+
+#page-sobre .sobre p {
+    margin: 0px;
+    margin-bottom: -15px;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 20px;
+    text-align: justify;
+}
+
+
 
 
 @media screen and (min-width : 651px) and (max-width: 1200px) {
